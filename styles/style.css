@@ -2,7 +2,8 @@ html {
   display: flex;
 }
 .page {
-  
+  display: flex;
+  flex-direction: column;
   background-image: var(--beckgackground-img);
   background-size: cover;
   background-attachment: fixed;
@@ -10,6 +11,7 @@ html {
   background-color: var(--beckgackground-color-page);
 }
 .header {
+  flex: 1;
   inline-size: 100%;
   position: relative;
 }
