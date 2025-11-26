@@ -10,6 +10,7 @@ html {
   background-color: var(--beckgackground-color-page);
 }
 .header {
+  inline-size: 100%;
   position: relative;
 }
 .header__theme-menu-list {
@@ -32,10 +33,10 @@ html {
   border: none;
   line-height: 2vh;
 }
-.header__theme-menu-button:hover{
-  outline:1px solid var(--color-focus-nav);
+.header__theme-menu-button:hover {
+  outline: 1px solid var(--color-focus-nav);
 }
-.header__theme-menu-button:focus-visible{
+.header__theme-menu-button:focus-visible {
   outline: none;
   border-block-end: 1px solid var(--src-element);
 }
@@ -108,7 +109,7 @@ html {
   left: 10px;
 }
 .title {
-  margin-block-start: 6vh;
+  margin-block-start: 16vh;
 }
 .titel_src {
   text-decoration: none;
