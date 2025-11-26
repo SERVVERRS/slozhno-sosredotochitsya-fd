@@ -2,7 +2,7 @@ html {
   display: flex;
 }
 .page {
-  min-inline-size: 375px;
+  
   background-image: var(--beckgackground-img);
   background-size: cover;
   background-attachment: fixed;
@@ -11,7 +11,6 @@ html {
 }
 .header {
   inline-size: 100%;
- 
   position: relative;
 }
 .header__theme-menu-list {
@@ -110,6 +109,7 @@ html {
   left: 10px;
 }
 .title {
+  inline-size: 300px;
   margin-block-start: 16vh;
 }
 .titel_src {
@@ -166,6 +166,7 @@ html {
   inline-size: 23.6vh;
 }
 .title_block_attention {
+  inline-size: 300px;
   margin-block-start: 7.6vh;
   margin-inline-start: 1.5vh;
 }
@@ -178,6 +179,7 @@ html {
 
 }
 .block_gold_fish {
+  inline-size: 300px;
   margin-block-start: 7.6vh;
   margin-inline-start: 1.5vh;
 }
@@ -240,7 +242,8 @@ html {
 }
 
 @media (width >= 768px) {
-  .header {
+  .page {
+  min-inline-size: 768px;
 }
   .header__theme-menu-list {
   min-inline-size: 768px;
@@ -290,8 +293,7 @@ html {
   left: 20px;
 }
 .title {
-  margin-block-start: 5.9vh;
-  
+  margin-block-start: 23.8vh;
 }
 .title_text {
   font-weight: 700;
@@ -401,9 +403,8 @@ html {
 }
 
 @media (width >= 1024px) {
-.header {
- 
-  position: relative;
+.page {
+  min-inline-size: 1024px;
 }
 .header__theme-menu {
   inline-size: 133.6vh;
@@ -459,7 +460,7 @@ html {
   left: 20px;
 }
 .title {
-  margin-block-start: 7.8vh;
+  margin-block-start: 25.5vh;
 }
 .title_text {
   font-size: 2.35vh;
