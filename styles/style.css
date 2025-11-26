@@ -11,6 +11,7 @@ html {
 }
 .header {
   inline-size: 100%;
+ 
   position: relative;
 }
 .header__theme-menu-list {
@@ -240,7 +241,6 @@ html {
 
 @media (width >= 768px) {
   .header {
-  min-block-size: 1024px;
 }
   .header__theme-menu-list {
   min-inline-size: 768px;
@@ -402,7 +402,7 @@ html {
 
 @media (width >= 1024px) {
 .header {
-  min-block-size: 767px;
+ 
   position: relative;
 }
 .header__theme-menu {
