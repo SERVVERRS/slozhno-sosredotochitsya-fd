@@ -13,6 +13,7 @@ html {
 .header {
   flex: 1;
   inline-size: 100%;
+  min-block-size: 668px;
   position: relative;
 }
 .header__theme-menu-list {
@@ -112,7 +113,7 @@ html {
 }
 .title {
   inline-size: 300px;
-  margin-block-start: 16vh;
+  margin-block-start: 6vh;
 }
 .titel_src {
   text-decoration: none;
@@ -247,6 +248,9 @@ html {
   .page {
   min-inline-size: 768px;
 }
+  .header{
+    min-block-size: 1024px;
+  }
   .header__theme-menu-list {
   min-inline-size: 768px;
   padding-inline-end: 2.1vh;
@@ -295,7 +299,7 @@ html {
   left: 20px;
 }
 .title {
-  margin-block-start: 23.8vh;
+  margin-block-start: 5.9vh;
 }
 .title_text {
   font-weight: 700;
@@ -408,12 +412,15 @@ html {
 .page {
   min-inline-size: 1024px;
 }
+.header{
+  min-block-size: 768px;
+}
 .header__theme-menu {
-  inline-size: 133.6vh;
+  inline-size: 132.6vh;
 }
 .header__theme-menu-list {
   display: flex;
-  inline-size: 133.6vh;
+  inline-size: 132.6vh;
   justify-content: center;
   align-items: center;
   flex-direction: row;
@@ -462,7 +469,7 @@ html {
   left: 20px;
 }
 .title {
-  margin-block-start: 25.5vh;
+  margin-block-start: 7.8vh;
 }
 .title_text {
   font-size: 2.35vh;
@@ -536,8 +543,8 @@ html {
   gap: 2.65vh;
 }
 .footer {
-  min-block-size: 768px;
-  margin-block-start: 7.5vh;
+  min-block-size: 100vh;
+  margin-block-start: 7.2vh;
 }
 .footer_title {
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
