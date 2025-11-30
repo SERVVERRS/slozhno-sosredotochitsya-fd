@@ -2,7 +2,6 @@ html {
   display: flex;
 }
 .page {
-  display: flex;
   flex-direction: column;
   background-image: var(--beckgackground-img);
   background-size: cover;
@@ -11,14 +10,13 @@ html {
   background-color: var(--beckgackground-color-page);
 }
 .header {
-  flex: 1;
   inline-size: 100%;
   min-block-size: 668px;
   position: relative;
 }
 .header__theme-menu-list {
   display: flex;
-  min-inline-size: 375px;
+  min-inline-size: 100%;
   flex-direction: column;
   align-items: end;
   padding-inline-end: 1.6vh;
@@ -64,7 +62,7 @@ html {
   color: var(--color-subtitle-text);
   font-family: 'IBM Plex Mono';
   font-weight: 700;
-  font-style: Bold;
+
   margin-block-start: 8vh;
   height: 17.5vh;
   font-size: 2.7vh;
@@ -410,17 +408,17 @@ html {
 
 @media (width >= 1024px) {
 .page {
-  min-inline-size: 1024px;
+  min-inline-size: 100%;
 }
 .header {
   min-block-size: 768px;
 }
 .header__theme-menu {
-  inline-size: 132.6vh;
+  inline-size: 100%;
 }
 .header__theme-menu-list {
   display: flex;
-  inline-size: 132.6vh;
+  inline-size: 100%;
   justify-content: center;
   align-items: center;
   flex-direction: row;
@@ -429,28 +427,28 @@ html {
   gap: 1.8vh;
 }
 .header__theme-menu-button {
-  width: 8.7vh;
-  height: 3.4vh;
+  inline-size: 8.7vh;
+  block-size: 3.4vh;
   font-size: 2.4vh;
   line-height: 1vh;
 }
 .header_title {
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
   line-height: 83%;
-  margin-block-start: 273px;
+  margin-block-start: 26.8%;
 }
 .header_text {
-  margin-block-start: 15vh;
-  margin-inline-start: 67vh;
-  width: 64vh;
-  height: 9vh;
+  margin-block-start: 11.1%;
+  margin-inline-start: 50.1%;
+  inline-size: 47.9%;
+  block-size: 10%;
   font-size: 2.35vh;
-  line-height: 3vh;
+  line-height: 129%;
 }
 .header_REC {
   font-size: 2.35vh;
-  right: 27px;
-  top: 21px;
+  right: 2.65%;
+  top: 2.7%;
 }
 .header_REC::after {
   margin-inline-start: 1.2vh;
@@ -459,21 +457,22 @@ html {
 .right_corner {
   block-size: 3.3vh;
   inline-size: 3.3vh;
-  top: 20px;
-  right: 20px;
+  top: 2.6%;
+  right: 2%;
 }
 .left_corner {
   block-size: 3.3vh;
   inline-size: 3.3vh;
-  bottom: 20px;
-  left: 20px;
+  bottom: 2.6%;
+  left: 2%;
 }
 .title {
-  margin-block-start: 7.8vh;
+  inline-size: 100%;
+  margin-block-start: 5.8%;
 }
 .title_text {
   font-size: 2.35vh;
-  inline-size: 40vh;
+  inline-size: 100%;
 }
 .subtitle_text {
   font-size: 2.35vh;
@@ -486,48 +485,51 @@ html {
   font-size: 2.35vh
 }
 .title_block_hard {
-  margin-inline-start: 1.6vh;
-  gap: 0.9vh;
-  grid-template-columns: 43.7vh 84.6vh;
+  inline-size: 98%;
+  margin-inline-start: 1.2%;
+  gap: 2%;
+  grid-template-columns: 32.2% 64.8%;
 }
 .title_block_text {
-  gap: 1.3vh;
-  inline-size: 84.6vh;
+  gap: 4%;
+  inline-size: 100%;
 }
 .title_text_block_hard {
-  gap: 2.7vh;
-  inline-size: 84.6vh;
+  gap: 6.5%;
+  inline-size: 100%;
 }
 .title_text_block_attention {
   display: grid;
-  grid-template-columns: 43.7vh 43.7vh 43.7vh;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .title_block_attention {
-  
-  margin-block-start: 10.5vh;
-  margin-inline-start: 1.6vh;
+  inline-size: 98%;
+  margin-block-start: 14%;
+  margin-inline-start: 1.2%;
 }
 .title_text_attention {
   gap: 1.4vh;
-  inline-size: 41.1vh;
+  inline-size: 94%;
   margin-block-start: 2.7vh;
 }
 .block_gold_fish {
+  block-size: 100%;
+  inline-size: 98%;
   margin-block-start: 10.4vh;
-  margin-inline-start: 1.6vh;
+  margin-inline-start: 1.2%;
   gap: 0.9vh;
-  grid-template-columns: 43.7vh 84.6vh;
+  grid-template-columns: 33.4% 64.8%;
 }
 .block_text_gold_fish {
-  inline-size: 84.6vh;
-  gap: 2.55vh;
+  inline-size: 100%;
+  gap: 2.15%;
 }
 .text_gold_fish {
   gap: 1.4vh;
 }
 .block_img {
-  inline-size: 133.6vh;
-  margin-block-start: 10.3vh;
+  inline-size: 133vh;
+  margin-block-start: 17.3%;
   margin-inline-start: 0;
 }
 .text_block_img {
