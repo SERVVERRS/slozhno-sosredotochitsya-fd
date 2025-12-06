@@ -166,7 +166,7 @@
   margin-block-start: 24.3%;
   margin-inline-start: 2.5%;
 }
-.title_text_block_attention{
+.title_text_block_attention {
   gap: 1.8%;
   display: grid;
 }
@@ -246,7 +246,7 @@
 }
 
 @media (width >= 768px) {
-  .page{
+  .page {
     margin: 0;
   }
   .header {
@@ -335,7 +335,7 @@
   gap: 5%;
   inline-size: 100%;
 }
-.title_text_block_attention{
+.title_text_block_attention {
   inline-size: 94.2%;
   margin-block-start: 5.8%;
   gap: 2.1vh;
@@ -364,7 +364,7 @@
   gap: 0.8%;
   inline-size: 104.5%;
 }
-.title_text_gold_fish{
+.title_text_gold_fish {
   display: grid;
   gap: 1.9%;
 }
@@ -549,7 +549,7 @@
   inline-size: 100%;
   gap: 1%;
 }
-.title_text_gold_fish{
+.title_text_gold_fish {
   gap: 0.7%;
 }
 .text_gold_fish {
