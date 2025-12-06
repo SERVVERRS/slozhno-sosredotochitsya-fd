@@ -1,6 +1,7 @@
 :root.theme-light {
   --beckgackground-img: url(../images/cover-image-light.png);
   --beckgackground-color-page: #FFF1F7;
+  --fonts: 'IBM Plex mono';
   --color-text-nav: #353430;
   --color-focus-nav: #32312D66;
   --color-title-text: #FFC2E6;
@@ -10,6 +11,7 @@
   --color-subtitle-text-block: #FF8DCB;
   --color-text-title: #353430;
   --src-element: #353430;
+  --src-element-nav: #353430;
   --color-visual-element: #353430;
   --color-text-shadow: #FF8DCB;
   --display: none;
@@ -19,6 +21,7 @@
   :root {
     --beckgackground-img: url(../images/cover-image-light.png);
     --beckgackground-color-page: #FFF1F7;
+    --fonts: 'IBM Plex mono';
     --color-text-nav: #353430;
     --color-focus-nav: #32312D66;
     --color-title-text: #FFC2E6;
@@ -29,6 +32,7 @@
     --color-text-title: #353430;
     --color-visual-element: #353430;
     --src-element: #353430;
+    --src-element-nav: #353430;
     --color-text-shadow: #FF8DCB;
     --display: none;
   }

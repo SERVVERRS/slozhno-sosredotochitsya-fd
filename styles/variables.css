@@ -1,6 +1,7 @@
 :root {
   --beckgackground-img: url(../images/cover-image-dark.png);
   --beckgackground-color-page: #000028;
+  --fonts: 'IBM Plex mono';
   --color-text-nav: #FF0070;
   --color-focus-nav: #FF007066;
   --color-title-text: #DB00FF;
@@ -10,6 +11,7 @@
   --color-subtitle-text-block: #FF0070;
   --color-text-title: #F1B2CE;
   --src-element: #F1B2CE;
+  --src-element-nav: #FF0070;
   --color-visual-element: #FF0070;
   --color-text-shadow: #FF0070;
   --display: flex;
