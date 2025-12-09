@@ -1,17 +1,17 @@
 :root.theme-dark {
   --beckgackground-img: url(../images/cover-image-dark.png);
   --beckgackground-color-page: #000028;
-  --color-text-nav: #FF0070;
-  --color-focus-nav: #FF007066;
-  --color-title-text: #DB00FF;
-  --beckgackground-color-text-block: #FF0070;
+  --color-text-nav: #ff0070;
+  --color-focus-nav: #ff007066;
+  --color-title-text: #db00ff;
+  --beckgackground-color-text-block: #ff0070;
   --color-subtitle-text: #000028;
-  --color-subtitle-text-title: #FF0070;
-  --color-subtitle-text-block: #FF0070;
-  --color-text-title: #F1B2CE;
-  --src-element: #F1B2CE;
-  --src-element-nav: #FF0070;
-  --color-visual-element: #FF0070;
-  --color-text-shadow: #FF0070;
+  --color-subtitle-text-title: #ff0070;
+  --color-subtitle-text-block: #ff0070;
+  --color-text-title: #f1b2ce;
+  --src-element: #f1b2ce;
+  --src-element-nav: #ff0070;
+  --color-visual-element: #ff0070;
+  --color-text-shadow: #ff0070;
   --display: flex;
 }

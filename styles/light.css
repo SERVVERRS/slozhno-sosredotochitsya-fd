@@ -1,37 +1,37 @@
 :root.theme-light {
   --beckgackground-img: url(../images/cover-image-light.png);
-  --beckgackground-color-page: #FFF1F7;
+  --beckgackground-color-page: #fff1f7;
   --color-text-nav: #353430;
-  --color-focus-nav: #32312D66;
-  --color-title-text: #FFC2E6;
-  --beckgackground-color-text-block: #FF8DCB;
+  --color-focus-nav: #32312d66;
+  --color-title-text: #ffc2e6;
+  --beckgackground-color-text-block: #ff8dcb;
   --color-subtitle-text: #353430;
   --color-subtitle-text-title: #353430;
-  --color-subtitle-text-block: #FF8DCB;
+  --color-subtitle-text-block: #ff8dcb;
   --color-text-title: #353430;
   --src-element: #353430;
   --src-element-nav: #353430;
   --color-visual-element: #353430;
-  --color-text-shadow: #FF8DCB;
+  --color-text-shadow: #ff8dcb;
   --display: none;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     --beckgackground-img: url(../images/cover-image-light.png);
-    --beckgackground-color-page: #FFF1F7;
+    --beckgackground-color-page: #fff1f7;
     --color-text-nav: #353430;
-    --color-focus-nav: #32312D66;
-    --color-title-text: #FFC2E6;
-    --beckgackground-color-text-block: #FF8DCB;
+    --color-focus-nav: #32312d66;
+    --color-title-text: #ffc2e6;
+    --beckgackground-color-text-block: #ff8dcb;
     --color-subtitle-text: #353430;
     --color-subtitle-text-title: #353430;
-    --color-subtitle-text-block: #FF8DCB;
+    --color-subtitle-text-block: #ff8dcb;
     --color-text-title: #353430;
     --color-visual-element: #353430;
     --src-element: #353430;
     --src-element-nav: #353430;
-    --color-text-shadow: #FF8DCB;
+    --color-text-shadow: #ff8dcb;
     --display: none;
   }
-} 
+}
