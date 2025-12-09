@@ -1,6 +1,5 @@
 :root.theme-dark {
   --beckgackground-img: url(../images/cover-image-dark.png);
-  --fonts: 'IBM Plex mono';
   --beckgackground-color-page: #000028;
   --color-text-nav: #FF0070;
   --color-focus-nav: #FF007066;

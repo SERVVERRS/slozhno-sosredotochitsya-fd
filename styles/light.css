@@ -1,7 +1,6 @@
 :root.theme-light {
   --beckgackground-img: url(../images/cover-image-light.png);
   --beckgackground-color-page: #FFF1F7;
-  --fonts: 'IBM Plex mono';
   --color-text-nav: #353430;
   --color-focus-nav: #32312D66;
   --color-title-text: #FFC2E6;
@@ -21,7 +20,6 @@
   :root {
     --beckgackground-img: url(../images/cover-image-light.png);
     --beckgackground-color-page: #FFF1F7;
-    --fonts: 'IBM Plex mono';
     --color-text-nav: #353430;
     --color-focus-nav: #32312D66;
     --color-title-text: #FFC2E6;
