@@ -12,24 +12,28 @@
   min-block-size: 100vh;
 }
 .header__theme-menu-list {
-  display: flex;
+  display: grid;
   min-inline-size: 100%;
-  flex-direction: column;
-  align-items: end;
-  padding-inline-end: 3%;
+  min-block-size: 100%;
+  justify-content: end;
+  padding-inline-end: 6%;
   padding-block-start: 19%;
-  gap: 1.6vh;
+  gap: 36%;
 }
 .header__theme-menu-button {
-  inline-size: 10.5vh;
-  block-size: 3.9vh;
+  inline-size: 120%;
+  block-size: 150%;
   background: none;
   color: var(--color-text-nav);
-  font-size: 2.7vh;
+  font-size: 110%;
   font-family: var(--fonts), "Courier New", monospace;
   font-weight: normal;
   border: none;
-  line-height: 2vh;
+  line-height: 10%;
+}
+.header__theme-menu-item {
+  inline-size: 100%;
+  block-size: 100%;
 }
 .header__theme-menu-button:hover {
   outline: 1px solid var(--color-focus-nav);
@@ -49,7 +53,7 @@
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
-  margin-block-start: 18%;
+  margin-block-start: 30.3%;
   margin-inline-start: 2.7%;
   inline-size: 90%;
   text-shadow: 4px 4px 0 var(--color-text-shadow);
@@ -60,8 +64,8 @@
   font-family: var(--fonts), "Courier New", monospace;
   font-weight: 700;
   margin-block-start: 14.5%;
-  font-size: 2.7vh;
-  line-height: 3.5vh;
+  font-size: 113%;
+  line-height: 130%;
   inline-size: 94.6%;
   margin-inline-start: 2.7%;
 }
@@ -71,7 +75,7 @@
   color: var(--color-visual-element);
   font-family: var(--fonts), "Courier New", monospace;
   font-weight: 400;
-  font-size: 2.7vh;
+  font-size: 113%;
   right: 4.5%;
   top: 1.7%;
 }
@@ -88,8 +92,8 @@
 }
 .right_corner {
   position: absolute;
-  block-size: 3.5vh;
-  inline-size: 3.5vh;
+  block-size: 4%;
+  inline-size: 7%;
   border-block-start: 1px solid var(--color-visual-element);
   border-inline-end: 1px solid var(--color-visual-element);
   top: 1.5%;
@@ -97,8 +101,8 @@
 }
 .left_corner {
   position: absolute;
-  block-size: 3.3vh;
-  inline-size: 3.3vh;
+  block-size: 4%;
+  inline-size: 7%;
   border-block-end: 1px solid var(--color-visual-element);
   border-inline-start: 1px solid var(--color-visual-element);
   bottom: 1.5%;
@@ -122,7 +126,7 @@
   color: var(--color-subtitle-text-title);
   font-family: var(--fonts), "Courier New", monospace;
   font-weight: 700;
-  font-size: 2.7vh;
+  font-size: 112.7%;
   inline-size: 98%;
   margin-block-end: 5.8%;
 }
@@ -131,21 +135,21 @@
   color: var(--color-subtitle-text);
   font-family: var(--fonts), "Courier New", monospace;
   font-weight: 400;
-  font-size: 2.7vh;
+  font-size: 112.7%;
 }
 .text {
   color: var(--color-text-title);
   font-family: var(--fonts), "Courier New", monospace;
   font-weight: 400;
-  font-size: 2.7vh;
-  line-height: 3.5vh;
+  font-size: 112.7%;
+  line-height: 130%;
 }
 .easy {
   color: var(--color-subtitle-text);
   background-color: var(--color-subtitle-text-block);
   font-family: var(--fonts), "Courier New", monospace;
   font-weight: 700;
-  font-size: 2.7vh;
+  font-size: 112.7%;
 }
 .main_block_hard {
   margin-inline-start: 2.5%;
@@ -163,28 +167,28 @@
 }
 .main_block_attention {
   inline-size: 95%;
-  margin-block-start: 24.3%;
+  margin-block-start: 23.7%;
   margin-inline-start: 2.5%;
 }
 .main_text_block_attention {
-  gap: 1.8%;
+  gap: 2.9%;
   inline-size: 100%;
   display: grid;
 }
 .main_text_attention {
-  display: flex;
+  display: grid;
   flex-direction: column;
-  gap: 1.8vh;
+  gap: 4%;
   inline-size: 100%;
 }
 .block_gold_fish {
   inline-size: 97%;
-  margin-block-start: 23%;
+  margin-block-start: 32%;
   margin-inline-start: 2.3%;
 }
 .main_text_gold_fish {
   display: grid;
-  gap: 1.3%;
+  gap: 2.15%;
 }
 .block_text_gold_fish {
   inline-size: 98%;
@@ -193,7 +197,7 @@
 }
 .text_gold_fish {
   display: grid;
-  gap: 1.8vh;
+  gap: 3.3%;
 }
 .block_img {
   display: flex;
@@ -202,14 +206,14 @@
   inline-size: 95%;
   align-items: center;
   margin-inline-start: 2.5%;
-  margin-block-start: 38%;
+  margin-block-start: 53.5%;
 }
 .text_block_img {
   color: var(--color-subtitle-text);
   background-color: var(--color-subtitle-text-block);
   font-family: var(--fonts), "Courier New", monospace;
   font-weight: 700;
-  font-size: 2.7vh;
+  font-size: 112.7%;
   inline-size: 100%;
   justify-content: center;
 }
@@ -254,32 +258,32 @@
   }
   .header__theme-menu-list {
     min-inline-size: 100%;
-    padding-inline-end: 2.6%;
+    padding-inline-end: 4%;
     padding-block-start: 24.8%;
-    gap: 1vh;
+    gap: 34%;
   }
   .header__theme-menu-button {
-    inline-size: 6.7vh;
-    block-size: 2.6vh;
-    font-size: 1.8vh;
+    inline-size: 120%;
+    block-size: 150%;
+    font-size: 110%;
   }
   .header_title {
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     line-height: 83%;
-    margin-block-start: 22.5%;
+    margin-block-start: 28.5%;
     margin-inline-start: 0;
     inline-size: 90%;
   }
   .header_text {
     margin-block-start: 21%;
     height: 100%;
-    font-size: 1.75vh;
+    font-size: 112%;
     line-height: 130%;
     inline-size: 47.4%;
     margin-inline-start: 50%;
   }
   .header_REC {
-    font-size: 1.75vh;
+    font-size: 112%;
     right: 3.6%;
     top: 2%;
   }
@@ -288,14 +292,14 @@
     margin-block-start: 0.6vh;
   }
   .right_corner {
-    block-size: 2.4vh;
-    inline-size: 2.4vh;
+    block-size: 2.4%;
+    inline-size: 3.4%;
     top: 2%;
     right: 2.6%;
   }
   .left_corner {
-    block-size: 2.4vh;
-    inline-size: 2.4vh;
+    block-size: 2.4%;
+    inline-size: 3.4%;
     bottom: 2%;
     left: 2.6%;
   }
@@ -305,20 +309,20 @@
   }
   .title_text {
     font-weight: 700;
-    font-size: 1.75vh;
+    font-size: 112%;
     inline-size: 100%;
     margin-block-end: 0;
     margin-inline-start: 2.5%;
   }
   .subtitle_text {
-    font-size: 1.75vh;
+    font-size: 112%;
   }
   .text {
-    font-size: 1.75vh;
+    font-size: 112%;
     line-height: 130%;
   }
   .easy {
-    font-size: 1.75vh;
+    font-size: 112%;
   }
   .main_block_hard {
     margin-inline-start: 2%;
@@ -338,7 +342,7 @@
   .main_text_block_attention {
     inline-size: 100%;
     margin-block-start: 2.8%;
-    gap: 2.1vh;
+    gap: 6%;
     display: grid;
   }
   .title_attention {
@@ -351,13 +355,13 @@
     margin-inline-start: 1.3%;
   }
   .main_text_attention {
-    gap: 0.9vh;
+    gap: 6%;
     inline-size: 96.5%;
     margin-block-start: 0;
     margin-inline-start: 1.4%;
   }
   .block_gold_fish {
-    margin-block-start: 10.7%;
+    margin-block-start: 20%;
     margin-inline-start: 2%;
     display: grid;
     inline-size: 98%;
@@ -383,7 +387,7 @@
     margin-inline-start: 2.7%;
   }
   .text_block_img {
-    font-size: 1.75vh;
+    font-size: 112%;
     inline-size: 100%;
   }
   .title_img {
@@ -439,73 +443,74 @@
     inline-size: 100%;
   }
   .header__theme-menu-list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 6.7%);
     inline-size: 100%;
     justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    padding-block-start: 2.4vh;
+    padding-block-start: 0;
+    margin-block-start: 1.8%;
     padding-inline-end: 0;
-    gap: 1.8vh;
+    gap: 1%;
   }
   .header__theme-menu-button {
-    inline-size: 8.7vh;
-    block-size: 3.4vh;
-    font-size: 2.4vh;
-    line-height: 1vh;
+    inline-size: 100%;
+    block-size: 150%;
+    font-size: 113%;
+    line-height: 10%;
   }
   .header_title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     line-height: 83%;
-    margin-block-start: 26.8%;
+    margin-block-start: 27.6%;
   }
   .header_text {
     margin-block-start: 11.1%;
     margin-inline-start: 50.1%;
     inline-size: 47.9%;
     block-size: 10%;
-    font-size: 2.35vh;
+    font-size: 112%;
     line-height: 129%;
   }
   .header_REC {
-    font-size: 2.35vh;
+    font-size: 112%;
     right: 2.65%;
-    top: 2.7%;
+    top: 0.4%;
   }
   .header_REC::after {
     margin-inline-start: 1.2vh;
     margin-block-start: 0.7vh;
   }
   .right_corner {
-    block-size: 3.3vh;
-    inline-size: 3.3vh;
-    top: 2.6%;
+    block-size: 3.3%;
+    inline-size: 2.5%;
+    top: 0.2%;
     right: 2%;
   }
   .left_corner {
-    block-size: 3.3vh;
-    inline-size: 3.3vh;
-    bottom: 2.6%;
+    block-size: 3.3%;
+    inline-size: 2.5%;
+    bottom: 5%;
     left: 2%;
   }
   .main {
     inline-size: 100%;
-    margin-block-start: 5.8%;
+    margin-block-start: 4%;
   }
   .title_text {
-    font-size: 2.35vh;
+    font-size: 112%;
     inline-size: 99%;
     margin-inline-start: 1%;
   }
   .subtitle_text {
-    font-size: 2.35vh;
+    font-size: 112%;
+    block-size: 100%;
   }
   .text {
-    font-size: 2.35vh;
-    line-height: 3.05vh;
+    font-size: 112%;
+    line-height: 131%;
   }
   .easy {
-    font-size: 2.35vh;
+    font-size: 112%;
   }
   .main_block_hard {
     inline-size: 98%;
@@ -528,8 +533,9 @@
     display: grid;
     margin-block-start: 0;
     inline-size: 100%;
+    block-size: 100%;
     gap: 0.5%;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 33% 33% 33%;
   }
   .main_block_attention {
     inline-size: 98%;
@@ -537,35 +543,37 @@
     margin-inline-start: 1.2%;
   }
   .main_text_attention {
-    gap: 1vh;
+    gap: 2.2%;
     inline-size: 96%;
-    margin-block-start: 6.6%;
+    block-size: 80%;
+    margin-block-start: 7%;
   }
   .block_gold_fish {
     block-size: 100%;
     inline-size: 98%;
-    margin-block-start: 7.8%;
+    margin-block-start: 8.5%;
     margin-inline-start: 1.2%;
-    gap: 0.9vh;
+    gap: 0.8%;
     grid-template-columns: 33.4% 64.8%;
   }
   .block_text_gold_fish {
     inline-size: 100%;
-    gap: 1%;
+    gap: 2.2%;
   }
   .main_text_gold_fish {
-    gap: 0.7%;
+    gap: 3.6%;
   }
   .text_gold_fish {
-    gap: 1.4vh;
+    gap: 5.5%;
+    margin: 0;
   }
   .block_img {
     inline-size: 96%;
-    margin-block-start: 11%;
+    margin-block-start: 22.3%;
     margin-inline-start: 2%;
   }
   .text_block_img {
-    font-size: 2.35vh;
+    font-size: 112%;
   }
   .title_img {
     margin-block-start: 2%;
@@ -579,5 +587,11 @@
   .footer_title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     line-height: 83%;
+  }
+  .footer_right_corner {
+    top: 2.6%;
+  }
+  .footer_left_corner {
+    bottom: 2.3%;
   }
 }
