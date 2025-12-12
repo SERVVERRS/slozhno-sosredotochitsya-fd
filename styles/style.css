@@ -359,7 +359,6 @@
   .header__theme-menu-list {
     grid-template-columns: repeat(3, 6.7%);
     justify-content: center;
-    padding-block-start: 0;
     padding-block-start: 18px;
     padding-inline-end: 0;
     gap: 10px;
